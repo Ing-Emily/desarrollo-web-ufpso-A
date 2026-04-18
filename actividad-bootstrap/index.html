@@ -13,10 +13,10 @@
       crossorigin="anonymous"
     />
     <!-- CSS propio-->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
 
-  <body>
+  
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-dark-subtle">
       <div class="container-fluid">
@@ -69,7 +69,7 @@
             <div class="card-body">
               <h5 class="card-title">Producto 1</h5>
               <p class="card-text">Descripcion breve del producto</p>
-              <a href="#" class="btn btn-primary">Ver mas</a>
+              <a href="#" class="btn btn-primary btn-modal" >Ver mas</a>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@
             <div class="card-body">
               <h5 class="card-title">Producto 2</h5>
               <p class="card-text">Descripcion breve del producto</p>
-              <a href="#" class="btn btn-primary">Ver mas</a>
+              <a href="#" class="btn btn-primary btn-modal" >Ver mas</a>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@
             <div class="card-body">
               <h5 class="card-title">Producto 3</h5>
               <p class="card-text">Descripcion breve del producto</p>
-              <a href="#" class="btn btn-primary">Ver mas</a>
+              <a href="#" class="btn btn-primary btn-modal" >Ver mas</a>
             </div>
           </div>
         </div>
@@ -106,6 +106,7 @@
         <div class="row mt-5 mb-5" id="login"></div>
         <div class="col-6 mx-auto">
           <h3 class="text-center">Iniciar Sesion</h3>
+          
           <form id="loginForm">
             <div class="mb-3">
               <label for="email" class="form-label"
@@ -137,14 +138,10 @@
       </div>
     </div>
 
-    <!-- ventana modal -->
- <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
+    
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -166,9 +163,13 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+<!--js propio-->
+ <script src="./js/script.js"></script>
+
   </body>
 
-  <footer>  
+  <footer>
 
   </footer>
 </html>
